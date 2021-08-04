@@ -26,7 +26,7 @@ a{
     clear: both;
 }
 header h1 {
-    float: right;
+    float: left;
     padding: 15px 0;
     color: #778899;
 }
@@ -141,7 +141,7 @@ footer {
 	border-top-color: #778899;
 	border-right-color: #778899;
 	border-bottom-color: #778899;
-	animation: puterin .9s linear infinite;
+	animation: puterin .8s linear infinite;
 }
 .label {
 	background-color: #778899;
