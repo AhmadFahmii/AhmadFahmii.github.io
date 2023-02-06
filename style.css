@@ -30,6 +30,9 @@ header h1 {
     padding: 15px 0;
     color: #778899;
 }
+header h1 a {
+    animation: tracking-in-expand 3s ;
+}
 header ul {
     float: right;
 }
@@ -56,6 +59,7 @@ header ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: kenburns-top 1.5s ease-out both;
 }
 .banner:after {
     content: '';
@@ -72,6 +76,7 @@ header ul li a:hover {
     z-index: 1;
     padding: 20px 25px;
     border: 1px solid #fff;
+    animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 section {
     padding: 50px 0;
